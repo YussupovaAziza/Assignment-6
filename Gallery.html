@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='stylee.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <title>Галерея</title>
+</head>
+<body>
+<!-- header start -->
+    
+    <div class='container'>
+        <div class='header-line'>
+            <div class='header-logo'>
+               <img src = "https://cdn.icon-icons.com/icons2/1646/PNG/512/recipedessertcakeicon_109876.png" alt ="logo">
+            </div>
+
+            <div class='nav'>
+                <a class='nav-item' href="file:///C:/Users/Aziza/Desktop/Project%20WEBKA/%D0%9A%D0%BE%D0%BD%D0%B4%D0%B8%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%BE%D0%BC.html#">ГЛАВНАЯ</a>
+                <a class='nav-item' href="file:///C:/Users/Aziza/Desktop/Project%20WEBKA/About.html">О НАС</a>
+                <a class='nav-item' href="file:///C:/Users/Aziza/Desktop/Project%20WEBKA/Gallery.html">ГАЛЕРЕЯ</a>
+                <a class='nav-item' href="@">МЕНЮ</a>
+                <a class='nav-item' href="@">РЕЦЕПТ</a>
+
+            </div>
+
+            <div class='cart'>
+                <a href="#">
+                    <img class ='cart-img' src = "https://cdn.icon-icons.com/icons2/203/PNG/96/diagram-61_24456.png" alt ="">
+                </a>
+            </div>
+
+            <div class='phone'>
+                <div class='phone-holder'>
+                        <img src="https://cdn.icon-icons.com/icons2/614/PNG/96/phone-volume_icon-icons.com_56474.png" alt="phone img" >
+                        <a class='num' href='#'>+(778)-382-76-28</a>
+                </div>
+                
+                <div class='phone-text'>
+                    Свяжитесь с нами для <br> заказа
+                </div>
+            </div>
+
+            <div class='btn'>
+                <a class='button' href='#'>ОФОРМИТЬ ЗАКАЗ</a>
+            </div>
+        </div>
+
+    </div>
+
+<!-- header end -->
+
+<div class="myProducts">
+   <div class="myProducts-gallery">
+       <img src=
+"https://otkritkis.com/wp-content/uploads/2022/06/rfwzd.jpg"
+           alt="click here" 
+           onclick="myImageFunction(this)">
+       <img src=
+"https://o-tendencii.com/uploads/posts/2022-02/1646043117_37-o-tendencii-com-p-tort-s-tsvetami-foto-38.jpg"
+           alt="click here"
+           onclick="myImageFunction(this)">
+           <img src=
+"https://o-tendencii.com/uploads/posts/2022-02/1645831756_9-o-tendencii-com-p-appetitnie-ponchiki-foto-9.jpg"
+            alt="click here"
+            onclick="myImageFunction(this)">
+       
+       <img src=
+"https://pbs.twimg.com/media/CC-76yzWMAAfIzx?format=jpg&name=4096x4096"
+           alt="click here" 
+           onclick="myImageFunction(this)">
+   </div>
+
+   <div class="image-container">
+       <img id="img-Box" src=
+"https://pbs.twimg.com/media/CC-76yzWMAAfIzx?format=jpg&name=4096x4096"
+           alt="click here">
+   </div>
+</div>
+<script>
+   function myImageFunction(productSmallImg) {
+       var productFullImg = document.getElementById("img-Box");
+       productFullImg.src = productSmallImg.src;
+   }
+</script>
+
+
+
+</body>
+</html>
