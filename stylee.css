@@ -1,12 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: aliceblue;
-    margin: 0%;
+    margin:-1.5% 0%;
 
 }
 .container{
     margin-left: 4%; 
 }
+
+/* HEADER STYLE */
 .header{
     background-image: url(https://static.tildacdn.com/tild3037-3739-4536-b135-663030303738/tort-yagody-krem.jpg);
     height: 115vh;
@@ -14,7 +16,7 @@ body{
     background-size:100%;
 }
 .header-line{
-    padding-top: 15px;
+    padding-top: 3%;
     display:flex;
     align-items:center;
     justify-content: space-around;
@@ -247,7 +249,10 @@ body{
 
 /* О НАС  end*/
 
+/* MENU START */
 
+
+/* MENU END */
 
 
 
