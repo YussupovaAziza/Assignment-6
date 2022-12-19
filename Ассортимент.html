@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+   <meta charset="UTF-8"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+   
+    
+   <!-- custom css file link  --> 
+   <link rel='stylesheet' href='style2.css'> 
+   <title> Gallery</title> 
+ 
+</head> 
+<body> 
+    
+    <div>
+        <div class='con'>
+            <div class='header-line'>
+                <div class='header-logo'>
+                   <img src = "https://cdn.icon-icons.com/icons2/1646/PNG/512/recipedessertcakeicon_109876.png" alt ="logo">
+                </div>
+    
+                <div class='nav'>
+                    <a class='nav-item' href="file:///C:/Users/HP/Desktop/Dana%20web/front%20f%C4%B1nal/%D0%9A%D0%BE%D0%BD%D0%B4%D0%B8%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%BE%D0%BC.html">ГЛАВНАЯ</a>
+                    <a class='nav-item' href="file:///C:/Users/HP/Desktop/Dana%20web/front%20f%C4%B1nal/%D0%9E%20%D0%BD%D0%B0%D1%81.html">О НАС</a>
+                    <a class='nav-item' href="file:///C:/Users/HP/Desktop/Dana%20web/front%20f%C4%B1nal/%D0%93%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F.html">ГАЛЕРЕЯ</a>
+                    <a class='nav-item' href="file:///C:/Users/HP/Desktop/Dana%20web/front%20f%C4%B1nal/Menu.html">МЕНЮ</a>
+                    <a class='nav-item' href="file:///C:/Users/HP/Desktop/Dana%20web/front%20f%C4%B1nal/Blog.html">БЛОГ</a>
+                </div>
+    
+                <div class='cart'>
+                    <a href="#">
+                        <img class ='cart-img' src = "https://cdn.icon-icons.com/icons2/203/PNG/96/diagram-61_24456.png" alt ="">
+                    </a>
+                </div>
+    
+                <div class='phone'>
+                    <div class='phone-holder'>
+                            <img src="https://cdn.icon-icons.com/icons2/614/PNG/96/phone-volume_icon-icons.com_56474.png" alt="phone img" >
+                            <a class='num' href='#'>+(778)-382-76-28</a>
+                    </div>
+                    
+                    <div class='phone-text'>
+                        Свяжитесь с нами для <br> заказа
+                    </div>
+                </div>
+    
+                <div class='btn'>
+                    <a class='button' href='file:///C:/Users/HP/Desktop/Dana%20web/front%20f%C4%B1nal/Order.html'>ОФОРМИТЬ ЗАКАЗ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+<div class="container"> 
+   <h1 class="heading">Desserts</h1> 
+ 
+   <input type="text" placeholder="Поиск" id="search-box"> 
+ 
+   <div class="image-container"> 
+ 
+      <div class="image" data-title="Strawberry cake"> 
+         <img src="https://avatars.mds.yandex.net/i?id=f7a7fc8c1deb8e94e4713142534932b5-5878122-images-thumbs&n=13&exp=1" alt=""> 
+         <h3>Strawberry cake </h3> 
+      </div> 
+ 
+      <div class="image" data-title="Pineapple cake"> 
+         <img src="https://i.pinimg.com/originals/91/d1/cd/91d1cd5e98e7242abb4225dad6e07e84.jpg" alt=""> 
+         <h3>Pineapple cake</h3> 
+      </div> 
+ 
+      <div class="image" data-title="Blackberries cake"> 
+         <img src="https://rare-gallery.com/uploads/posts/782090-Chocolate-Blueberries-Cakes-Blackberry.jpg" alt=""> 
+         <h3>Blackberries cake</h3> 
+      </div> 
+ 
+      <div class="image" data-title="Chocolate cake"> 
+         <img src="https://kerrygold.com/ie/wp-content/uploads/sites/2/2017/03/rsz_shutterstock_394680466.jpg" alt=""> 
+         <h3>Chocolate Cake</h3> 
+      </div> 
+ 
+      <div class="image" data-title="Belgium cake"> 
+         <img src="https://i.pinimg.com/originals/17/f5/1f/17f51f4af489fe6b80cc17ec9d5353b9.jpg" alt=""> 
+         <h3>Belgium Cake</h3> 
+      </div> 
+ 
+      <div class="image" data-title="Orange cake"> 
+         <img src="https://i.pinimg.com/736x/18/41/f3/1841f374fd9ab73f5d9855443c7c4190--mandarin-orange-cakes-mandarin-oranges.jpg" alt=""> 
+         <h3>Orange cake</h3> 
+      </div> 
+  
+      <div class="image" data-title="Red Valvet"> 
+         <img src="https://i.pinimg.com/originals/fb/5d/14/fb5d149aebc5879e6ea7bfb985908e93.jpg" alt=""> 
+         <h3>Red Valvet</h3> 
+      </div> 
+ 
+      <div class="image" data-title="Cookies"> 
+         <img src="https://paleoglutenfree.com/wp-content/uploads/2019/01/best-paleo-keto-cookies-4-of-17.jpg" alt=""> 
+         <h3>Cookies</h3> 
+      </div> 
+ 
+      <div class="image" data-title="Mango cake"> 
+         <img src="https://i.pinimg.com/originals/d5/68/4d/d5684def18922af1b1bf56dbe69ecf99.jpg" alt=""> 
+         <h3>Mango cake</h3> 
+      </div> 
+ 
+       
+   </div> 
+ 
+</div> 
+ 
+ 
+<script> 
+ 
+let searchBox = document.querySelector('#search-box'); 
+let images = document.querySelectorAll('.container .image-container .image'); 
+ 
+searchBox.oninput = () =>{ 
+   images.forEach(hide => hide.style.display = 'none'); 
+   let value = searchBox.value; 
+   images.forEach(filter =>{ 
+      let title = filter.getAttribute('data-title'); 
+      if(value == title){ 
+         filter.style.display = 'block'; 
+      } 
+      if(searchBox.value == ''){ 
+         filter.style.display = 'block'; 
+      } 
+   }); 
+}; 
+ 
+</script> 
+ 
+</body> 
+</html>
+
