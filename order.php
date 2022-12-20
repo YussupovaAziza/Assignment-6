@@ -16,7 +16,7 @@
           die('Connection Failed   :  '.$conn->connect_error);
         }
         else{
-          header("Location: Order.html");
+          header("Location: Кондитерский дом.html");
         }
 
    }
